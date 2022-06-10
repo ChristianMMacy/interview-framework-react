@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="343a70e9-4c84-4c6d-8391-45f7e48172bc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/routes/Dashboard/Dashboard.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/0/7030d0b2f71b999ff89a343de08c414af32fc93a" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    <list default="true" id="343a70e9-4c84-4c6d-8391-45f7e48172bc" name="Changes" comment="Fix Dashboard (naming typos)">
+      <change afterPath="$PROJECT_DIR$/src/routes/Teams/Teams.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/Teams/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/Dashboard/Dasbhoard.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/Dashboard/Dashboard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Dashboard/Dashboard.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +32,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -178,8 +176,23 @@
       <option name="presentableId" value="Default" />
       <updated>1654794920040</updated>
       <workItem from="1654794923753" duration="469000" />
-      <workItem from="1654830438743" duration="1436000" />
+      <workItem from="1654830438743" duration="1860000" />
     </task>
+    <task id="LOCAL-00001" summary="Fix Dashboard (naming typos)">
+      <created>1654831966531</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1654831966532</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Fix Dashboard (naming typos)">
+      <created>1654831980113</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1654831980113</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,6 +219,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Fix Dashboard (naming typos)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix Dashboard (naming typos)" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
