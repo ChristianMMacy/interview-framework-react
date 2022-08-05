@@ -3,17 +3,17 @@ import App from './App';
 import {ChakraProvider} from '@chakra-ui/react'
 import {BrowserRouter} from "react-router-dom";
 import {createRoot} from "react-dom/client";
-import React = require('react');
+import {StrictMode} from 'react';
 
 
-const root = createRoot(document.getElementById('root'));
+const root = createRoot(document.getElementById('root') as HTMLElement);
 root.render(
-    <React.StrictMode>
+    <StrictMode>
         <BrowserRouter>
             <ChakraProvider>
                 <App/>
             </ChakraProvider>
         </BrowserRouter>
-    </React.StrictMode>
+    </StrictMode>
 );
 

@@ -1,10 +1,10 @@
-import {Route} from "react-router-dom";
+import {Route, Routes} from "react-router-dom";
+import Posts from "routes/Posts";
 
 function AppRoutes() {
     return (
         <Routes>
-            <Route path="/" element={<Home/>}/>
-            <Route path="about" element={<About/>}/>
+            <Route path="/" element={<Posts />}/>
         </Routes>
     )
 }
