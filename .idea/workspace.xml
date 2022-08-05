@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="343a70e9-4c84-4c6d-8391-45f7e48172bc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/Posts.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/Posts.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -238,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659707843459</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Make picture random">
+      <created>1659708035180</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1659708035180</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,7 +279,8 @@
     <MESSAGE value="Add empty teams page" />
     <MESSAGE value="Add Posts page" />
     <MESSAGE value="Add a few docs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add a few docs" />
+    <MESSAGE value="Make picture random" />
+    <option name="LAST_COMMIT_MESSAGE" value="Make picture random" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
