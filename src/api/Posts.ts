@@ -1,0 +1,15 @@
+interface Post {
+    userId: number,
+    id: number,
+    title: string,
+    body: string
+}
+
+async function getPosts(): Promise<Post[]> {
+    const response = await fetch(`${process.env.REACT_APP_API_BASE_URL}/posts`);
+    return response.json();
+}
+
+export {
+    getPosts
+}

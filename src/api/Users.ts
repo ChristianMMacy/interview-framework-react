@@ -1,0 +1,32 @@
+interface User {
+    id: number,
+    name: string,
+    username: string,
+    email: string,
+    address: {
+        street: string,
+        suite: string,
+        city: string,
+        zipcode: string,
+        geo: {
+            lat: string,
+            lng: string
+        }
+    },
+    phone: string,
+    website: string,
+    company: {
+        name: string,
+        catchPhrase: string,
+        bs: string
+    }
+}
+
+async function getUsers(): Promise<User[]> {
+    const response = await fetch(`${process.env.REACT_APP_API_BASE_URL}/users`);
+    return response.json();
+}
+
+export {
+    getUsers
+}
