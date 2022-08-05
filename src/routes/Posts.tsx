@@ -22,7 +22,7 @@ function Posts() {
 
                 return (
                         <Box key={id} className="p-5 border-2 border-gray-200 rounded-2xl">
-                            <Image src="https://picsum.photos/500/400"/>
+                            <Image src={`https://picsum.photos/700/300?random=${id}`}/>
                             <Heading as="h2" size="xl">{title}</Heading>
                             {userName && <Heading as="h3" size="md">By {userName}</Heading>}
                             <Text>{body}</Text>
