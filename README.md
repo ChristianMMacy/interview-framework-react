@@ -12,8 +12,9 @@ See below for some suggested exercises to work through.
 * Tailwind CSS
 
 ## Basic Development
-1. `npm install`
-2. `npm start`
+1. `cp .env.default .env`
+2. `npm install`
+3. `npm start`
 
 ## Suggested Exercises
 ### Create a Post page
