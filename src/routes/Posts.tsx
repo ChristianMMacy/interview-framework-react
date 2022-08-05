@@ -3,6 +3,10 @@ import {getUsers} from "api/Users";
 import {useQuery} from "@tanstack/react-query";
 import {Box, Heading, Image, Text, VStack} from "@chakra-ui/react";
 
+/**
+ * Displays a list of posts.
+ * @constructor
+ */
 function Posts() {
     const {data: posts, isLoading, isError} = useQuery(['posts'], getPosts)
     const {data: users } = useQuery(['users'], getUsers)
