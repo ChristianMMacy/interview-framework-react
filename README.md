@@ -42,7 +42,7 @@ So that I can see only the posts that are relevant to me.
 ### Add a Posts table
 ```
 As an admin
-I want an admin Posts page with a list of posts in a table
+I want an admin Posts page with a table of posts
 So that I can quickly see all the posts available and decide what to do with them.
 ```
 
@@ -52,7 +52,7 @@ So that I can quickly see all the posts available and decide what to do with the
 ### Add a Posts Table and Add the Ability to CRUD Posts
 ```
 As an admin
-I want an admin Posts page with a list of posts in a table
+I want an admin Posts page with a table of posts
 So that I can manage posts by Creating, Updating, and Deleting them.
 ```
 

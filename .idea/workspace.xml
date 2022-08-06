@@ -252,7 +252,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659712987128</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Add step to README to copy .env.default to .env">
+      <created>1659730824038</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1659730824038</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -287,7 +294,8 @@
     <MESSAGE value="Add a few docs" />
     <MESSAGE value="Make picture random" />
     <MESSAGE value="Add README with suggested exercises" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add README with suggested exercises" />
+    <MESSAGE value="Add step to README to copy .env.default to .env" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add step to README to copy .env.default to .env" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
