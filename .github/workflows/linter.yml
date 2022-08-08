@@ -1,0 +1,18 @@
+name: Run Linter
+
+on:
+  pull_request:
+    branches:
+      - main
+jobs:
+  test:
+    name: Run linter and throw style errors
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Install Packages
+        run: npm install eslint@latest
+      - name: Lint
+        run: npm run lint
+      - name: Prettier fix
+        run: npm run format:fix

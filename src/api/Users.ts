@@ -1,4 +1,4 @@
-interface User {
+export interface User {
     id: number,
     name: string,
     username: string,
@@ -30,6 +30,12 @@ async function getUsers(): Promise<User[]> {
     return response.json();
 }
 
+async function getUser(userId: number | undefined): Promise<User> {
+    const response = await fetch(`${process.env.REACT_APP_API_BASE_URL}/users/${userId}`);
+    return response.json();
+}
+
 export {
-    getUsers
+    getUsers,
+    getUser
 }
